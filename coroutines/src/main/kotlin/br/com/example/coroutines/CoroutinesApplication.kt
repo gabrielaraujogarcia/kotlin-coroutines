@@ -12,11 +12,11 @@ import kotlin.concurrent.thread
 fun main() {
 
     var executor = CoroutinesApplication()
-//    executor.first()
-//    executor.second()
-//    executor.third()
-//    executor.fourth()
-//    executor.fifth()
+    executor.first()
+    executor.second()
+    executor.third()
+    executor.fourth()
+    executor.fifth()
     executor.sixth()
 }
 
